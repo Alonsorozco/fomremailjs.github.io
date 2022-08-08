@@ -12,12 +12,12 @@
 </head>
 <body>
 
-    <div class="container border mt-5">
+    <div class="container border mt-5 w-25 shadow-lg p-3 mb-5 bg-body rounded">
         <h1> Formulario contacto</h1>
         <form id="form">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="nombre" name="name" required>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre" name="name" required>
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Apellido</label>
@@ -25,7 +25,7 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Telefono</label>
-                <input type="number" class="form-control" placeholder="telefono" name="phone" required>
+                <input type="number" class="form-control" placeholder="Telefono" name="phone" required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Correo Electronico</label>
@@ -33,10 +33,11 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-                <textarea type="email" class="form-control" placeholder="Correo electronico" name="message" required></textarea>
+                <textarea type="email" class="form-control" placeholder="Mensaje" name="message" required></textarea>
             </div>
 
-            <input type="submit" class="btn btn-info" id="button" value="Send Email" >
+            <input type="submit" class="btn btn-info mb-3" id="button" value="Solicitar" >
+            <a href="https://fabiansalasprofile.herokuapp.com/" class="btn btn-danger mb-3" > Volver a mi pagina</a>
           </form>
     </div>
 
